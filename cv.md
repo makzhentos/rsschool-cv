@@ -30,13 +30,9 @@ let result = sum(1, 2);
 alert( result );
 ```
 
-
-
 In the end of "htmlacademy" courses the last task was layout single page site with using html and css. After courses i have started to learn JavaScript by Youtube lessons. By this lessons I have learned the basics of the language. In present time I am studying more complex topics and start to solving tasks on "Codewars".
 
-
 ## **Education**
-
 
 - **University:** Belarusian National Technical University
 - **Courses:** [HTML Academy](https://www.htmlacademy.ru)
