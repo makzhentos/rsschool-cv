@@ -1,1 +1,1 @@
-# rsschool-cv
+https://makzhentos.github.io/rsschool-cv/cv
