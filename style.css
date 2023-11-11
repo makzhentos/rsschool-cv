@@ -1,6 +1,6 @@
 :root {
     --color-black: rgb(62, 66, 65);
-    --color-blue: rgb(186, 221, 217);
+    --color-blue: rgb(189, 189, 189);
     --color-orange: rgb(254, 204, 0);
     --center-burger: 12.3px;
   }
@@ -41,6 +41,29 @@ body {
   font-weight: 400;
   font-style: normal;
   fill: var(--color-black);
+}
+
+.material-icons-outlined {
+  font-size: 18px;
+  font-family: "Material icons";
+  vertical-align: middle;
+  display: inline-block;
+  width: 35px;
+  text-align: center;
+  padding-right: 15px;
+}
+
+.fa-brands,
+.fa-solid {
+  font-size: 18px;
+  display: inline-block;
+  width: 35px;
+  text-align: center;
+  padding-right: 15px;
+}
+
+.fa-discord {
+  vertical-align: middle;
 }
 
 .wrapper {
@@ -187,5 +210,47 @@ body {
     min-width: 260px;
     height: 2px;
     background-color: var(--color-blue);
+  }
 
     /* end about me section */
+
+
+
+    /* Footer */
+
+    .footer {
+      display: grid;
+      grid-template: 1fr / 1fr repeat(3, minmax(auto, 467px)) 1fr;
+      padding: 15px;
+      color: var(--color-black);
+      background-color: var(--color-blue);
+      align-items: center;
+      justify-items: center;
+    }
+    
+    .footer__copy {
+      grid-column: 2;
+      justify-self: left;
+    }
+    
+    .footer__ghlink {
+      grid-column: 3;
+    }
+    
+    .fa-github-square {
+      padding-right: 0;
+    }
+    
+    .footer__rslogo {
+      grid-column: 4;
+      justify-self: right;
+    }
+    
+    .rslogo {
+      fill: inherit;
+      height: 30px;
+      width: 30px;
+    }
+
+    /* End footer */
+    
