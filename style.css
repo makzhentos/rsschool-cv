@@ -141,3 +141,51 @@ body {
     cursor: pointer;
     transition: 0.3s;
   }
+
+  /* about me section */
+
+  .main {
+    display: grid;
+    grid-template-columns: 1fr minmax(auto, 1400px) 1fr;
+    padding: 100px 30px;
+    justify-items: center;
+  }
+  
+  .main__content {
+    grid-column: 2;
+    display: grid;
+    grid-template: auto auto auto auto auto/ repeat(2, minmax(auto, 450px));
+    column-gap: 150px;
+    row-gap: 100px;
+  }
+  
+  .section {
+    line-height: 150%;
+    max-width: 500px;
+    justify-self: start;
+    text-align: justify;
+  }
+  
+  .section:nth-child(even) {
+    justify-self: end;
+  }
+  
+  .section h2 {
+    position: relative;
+    font-weight: 200px;
+    font-size: 32px;
+    color: var(--color-blue);
+    margin-bottom: 40px;
+  }
+  
+  .section h2::before {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    display: block;
+    max-width: 270px;
+    min-width: 260px;
+    height: 2px;
+    background-color: var(--color-blue);
+
+    /* end about me section */
