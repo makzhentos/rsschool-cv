@@ -214,8 +214,40 @@ body {
 
     /* end about me section */
 
+/* skiils */
+/* .skills {
+  width: 100%;
+}
 
+.skills__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10%;
+}
 
+.section__list {
+  text-align: center;
+  color: var(--color-blue);
+}
+
+.section__list li {
+  color: white;
+  text-align: start;
+}
+
+.skills__hard {
+  flex-shrink: 0;
+}
+
+.skills__soft {
+  flex-shrink: 1;
+}
+
+li {
+  position: relative;
+   */
+/* skiils */
 
 
     
