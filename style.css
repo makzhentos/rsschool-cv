@@ -215,13 +215,12 @@ body {
     /* end about me section */
 
 /* skiils */
-/* .skills {
+.skills {
   width: 100%;
 }
 
 .skills__container {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   gap: 10%;
 }
@@ -246,8 +245,45 @@ body {
 
 li {
   position: relative;
-   */
+}
+  
 /* skiils */
+
+.education {
+  width: 100%;
+}
+
+.education p {
+  position: relative;
+}
+
+.education p:nth-child(odd)::before {
+  content: "done";
+  font-family: "Material icons";
+  position: absolute;
+  left: -25px;
+}
+
+.languages {
+  width: 100%;
+}
+
+.languages__list li::before {
+  content: "done";
+  font-family: "Material icons";
+  position: absolute;
+  left: -25px;
+}
+
+.section,
+  .section:nth-child(even) {
+    justify-self: center;
+  }
+
+  .projects__container {
+    justify-content: center;
+  }
+
 
 
     
