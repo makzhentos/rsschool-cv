@@ -30,6 +30,17 @@ a {
     vertical-align: top;
   }
 
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+  font-weight: inherit;
+  font-size: inherit;
+  }
+
+
 html,
 body {
   scroll-behavior: smooth;
@@ -193,28 +204,30 @@ body {
     justify-self: end;
   }
   
-  .section h2 {
-    position: relative;
-    font-weight: 200px;
-    font-size: 32px;
-    color: var(--color-blue);
-    margin-bottom: 40px;
-  }
-  
-  .section h2::before {
-    content: "";
-    position: absolute;
-    bottom: -10px;
-    display: block;
-    max-width: 270px;
-    min-width: 260px;
-    height: 2px;
-    background-color: var(--color-blue);
-  }
+  section h2 {
+  position: relative;
+  font-weight: 200px;
+  font-size: 32px;
+  color: var(--color-blue);
+  margin-bottom: 40px;
+}
+
+.section h2::before {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  display: block;
+  max-width: 270px;
+  min-width: 260px;
+  height: 2px;
+  background-color: var(--color-blue);
+}
 
     /* end about me section */
 
 /* skiils */
+
+
 .skills {
   width: 100%;
 }
@@ -285,7 +298,16 @@ li {
   }
 
 
+/* Section code */
+  .code {
+    width: 100%;
+    position: relative;
+  }
 
+
+
+
+/* Section code */
     
 
     /* Footer */
